@@ -1,0 +1,20 @@
+使用Python + streamlit + ollama (快速開發搭建自動回應Chat)
+
+更多語言開發可參考開源代碼 : 
+https://github.com/ollama/ollama
+
+
+大概操作內容如下：
+一、下載ollama並執行安裝
+https://ollama.com/download/windows
+        -將OllamaSetup.exe安裝至電腦 
+        -安裝完之後請手動開啟ollama (小綿羊icon)
+二、下載模型與安裝套件
+        -使用系統管理權限開啟cmd : 輸入以下代碼
+        -把模型下載下來ollama run mistral
+        -安裝pip install ollama
+        -安裝pip install streamlit
+三、撰寫程式碼與執行程式碼進行測試
+        -開啟command，切換到程式目錄
+        -執行程式碼streamlit run "你的程式碼.py"
+
